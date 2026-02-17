@@ -2,112 +2,86 @@
 
 # 📦 OmniBox
 
-**One Tool, Infinite Possibilities**
+### *One Tool, Infinite Possibilities*
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]()
 
-Your AI-powered personal assistant with voice support.
+**Your Personal AI-Powered Assistant with Voice Support**
 
-[Features](#-features) • [Setup](#-setup) • [Usage](#-usage) • [Contributing](#-contributing)
+*Control your computer, search the web, play music, get information - all with simple commands or your voice!*
 
-</div>
-
----
-
-## 🌟 What is OmniBox?
-
-A smart CLI assistant that lets you control your computer, search the web, play music, and get information — using **text or voice commands** in **Hindi & English**.
-
-## ✨ Features
-
-- 🎙️ **Voice Commands** — Speak naturally in Hindi or English
-- 🧠 **AI-Powered** — Google Gemini for intelligent responses
-- 🌐 **Web Control** — Open websites, search Google/YouTube
-- 🎵 **Music** — Play by mood (Lofi, Bollywood, Study, etc.)
-- 💻 **System Control** — Open apps, screenshots, shutdown
-- 🌦️ **Live Info** — Weather, news, time & date
-
----
-
-## 📥 Setup
-
-**1. Clone the repo**
-
-git clone https://github.com/YASHASVIYADAV30/Omnibox.git
-cd Omnibox
-
-**2. Install dependencies**
-
-pip install -r requirements.txt
-
-**3. Add API Keys**
-
-Create a `.env` file in the project root:
-
-GEMINI_KEY=your_gemini_key
-WEATHER_KEY=your_weather_key
-NEWS_KEY=your_news_key
-
-Get free keys from: [Gemini](https://aistudio.google.com/app/apikey) | [OpenWeather](https://openweathermap.org/api) | [NewsAPI](https://newsapi.org/)
-
-**4. Run**
-
-python main.py
-
----
-
-## 💡 Usage
-
-python main.py          # Text mode
-python main.py --voice  # Voice mode
-
-**Example commands:**
-
-open youtube
-search python tutorials
-play lofi music
-weather mumbai
-screenshot
-news
-voice on
-
----
-
-## 📁 Project Structure
-
-OmniBox/
-├── apis/          # API integrations (Gemini, Weather, News)
-├── commands/      # Command handlers (browser, music, system)
-├── core/          # Assistant brain & speech engine
-├── utils/         # Config & utilities
-├── main.py        # Entry point
-└── .env           # API keys (create this)
-
-## 🛠️ Tech Stack
-
-| Category | Technology |
-|----------|------------|
-| Language | Python |
-| AI | Google Gemini |
-| Speech | pyttsx3, SpeechRecognition |
-| APIs | OpenWeatherMap, NewsAPI |
-
-## 🤝 Contributing
-
-Contributions welcome! Feel free to open issues or submit PRs.
-
-## 📜 License
-
-[MIT License](LICENSE)
-
----
-
-<div align="center">
-
-Made with ❤️ by [Yashasvi Yadav](https://github.com/YASHASVIYADAV30)
-
-⭐ Star this repo if you found it useful!
+[📥 Download](#-quick-start) • [📖 Features](#-features) • [🎯 Examples](#-usage-examples) • [🐛 Report Bug](https://github.com/YASHASVIYADAV30/Omnibox/issues)
 
 </div>
+
+---
+
+## 🌟 Why OmniBox?
+
+OmniBox is your **intelligent companion** that understands natural language, speaks multiple languages, and makes your daily tasks effortless.
+
+### ✨ What Makes It Special?
+
+| Feature | Description |
+|---------|-------------|
+| 🎙️ **Natural Voice Commands** | Speak in Hindi or English, naturally |
+| 🧠 **AI-Powered** | Uses Google Gemini for intelligent responses |
+| 🔧 **Smart & Forgiving** | Understands typos and multiple phrasings |
+| 🚀 **Zero Configuration** | Works out of the box (just add API keys) |
+| 🎨 **Beautiful CLI** | Colorful, interactive terminal interface |
+| 🔒 **Privacy First** | All processing happens locally |
+
+---
+
+## 🎯 Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌐 Web & Search
+- Open any website instantly
+- Search Google, YouTube, GitHub
+- Play videos and music online
+- Smart URL handling
+
+### 🎵 Media & Entertainment
+- Play music by mood (Lofi, Bollywood, etc.)
+- YouTube integration
+- Spotify support
+- Voice-controlled playback
+
+</td>
+<td width="50%">
+
+### ⚙️ System Control
+- Open apps & folders
+- Take screenshots
+- System power controls
+- Task management
+
+### 🌦️ Information Hub
+- Real-time weather updates
+- Latest news headlines
+- Time & date queries
+- AI-powered Q&A
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📥 Quick Start
+
+### 🖥️ Method 1: Download ZIP (Easiest)
+
+[![Download ZIP](https://img.shields.io/badge/📥_Download-ZIP_File-blue?style=for-the-badge)](https://github.com/YASHASVIYADAV30/Omnibox/archive/refs/heads/main.zip)
+
+1. Click the **Download** button above
+2. Extract the ZIP file to any folder
+3. Follow [Setup Instructions](#-setup) below
+
