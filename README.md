@@ -1,68 +1,40 @@
 # 📦 OmniBox
-### One Tool, Infinite Possibilities. The Ultimate AI-Powered CLI Assistant.
+### 🤖 Your Personal AI-Powered CLI Assistant | Hindi & English Support
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
-![AI](https://img.shields.io/badge/AI-Google%20Gemini-purple)
-![Voice](https://img.shields.io/badge/Voice-Hindi%20%26%20English-orange)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+![Stars](https://img.shields.io/github/stars/YASHASVIYADAV30/Omnibox?style=social)
+![Forks](https://img.shields.io/github/forks/YASHASVIYADAV30/Omnibox?style=social)
 
 > **Control your computer, search the web, play music, and get real-time insights — all from your terminal.**
 
-[🚀 Quick Start](#-quick-start) • [✨ Features](#-key-features) • [🎯 Commands](#-usage-examples) • [🛠️ Tech Stack](#-tech-stack) • [🐛 Report Issue](../../issues)
+[📥 Download ZIP](https://github.com/YASHASVIYADAV30/Omnibox/archive/refs/heads/main.zip) • [🚀 Live Demo](#-usage-examples) • [📖 Documentation](#-documentation) • [🐛 Report Bug](../../issues)
 
 </div>
 
 ---
 
-## 🌟 What is OmniBox?
+## 🌟 Introduction
 
-**OmniBox** is not just another script; it is your personal intelligent companion living in the command line. Built with **Python** and powered by **Google's Gemini AI**, it bridges the gap between natural language and system execution.
+**OmniBox** is a next-generation Command Line Interface (CLI) assistant designed to simplify your digital life. Powered by **Google Gemini AI**, it understands natural language in both **English and Hindi**, allowing you to control your system, access real-time data, and automate tasks without lifting a finger.
 
-Unlike traditional assistants, OmniBox is natively **bilingual**, understanding commands in both **English and Hindi**. Whether you need to automate system tasks, fetch live weather data, read the news, or control media playback, OmniBox executes your intent instantly without requiring you to leave the terminal.
-
----
-
-## ✨ Key Features
-
-### 🧠 Intelligent Core
-- **Google Gemini Integration**: Leverages state-of-the-art LLMs for context-aware conversations and complex reasoning.
-- **Bilingual NLP**: Seamlessly understands and responds in **Hindi and English**. Handles colloquialisms, typos, and varied sentence structures.
-- **Voice Interface**: Full-duplex speech recognition allows for hands-free operation. Just speak, and OmniBox listens.
-
-### 💻 System Automation
-- **App & File Management**: Launch applications (`open vscode`, `open chrome`) or navigate directories (`open downloads`) instantly.
-- **System Control**: Execute critical operations like taking screenshots, locking the screen, shutting down, or restarting your machine via voice/text.
-- **Workflow Optimization**: Automate repetitive tasks with simple natural language commands.
-
-### 🌐 Real-Time Data & Media
-- **Live Weather**: Get hyper-local weather forecasts (temperature, humidity, conditions) for any city using **OpenWeatherMap API**.
-- **Global News**: Fetch and read out the latest headlines from around the world via **NewsAPI**.
-- **Smart Search & Media**: Perform Google searches, open specific websites, or play YouTube/Spotify tracks based on mood (e.g., "Play lofi music").
+Whether you are a developer, student, or power user, OmniBox turns your terminal into a powerful command center.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Quick Start (Choose Your Method)
 
-| Component | Technology Used |
-| :--- | :--- |
-| **Core Language** | Python 3.8+ |
-| **AI Engine** | Google Generative AI (Gemini) |
-| **Speech Engine** | `speech_recognition`, `pyaudio`, `gTTS` |
-| **Weather Data** | OpenWeatherMap API |
-| **News Data** | NewsAPI.org |
-| **System Ops** | `os`, `subprocess`, `pyautogui` |
-| **Environment** | `python-dotenv` for secure key management |
+### Option 1: Download ZIP (Easiest for Beginners)
+Don't want to use Git? No problem!
+1. Click the button below to download the latest version:
+   [📥 **Download OmniBox ZIP**](https://github.com/YASHASVIYADAV30/Omnibox/archive/refs/heads/main.zip)
+2. Extract the folder to your desktop.
+3. Open terminal in that folder and follow the **Installation** steps below.
 
----
-
-## 📥 Installation & Setup
-
-Get OmniBox running on your local machine in under 5 minutes.
-
-### 1. Clone the Repository
+### Option 2: Clone with Git (For Developers)
 ```bash
 git clone https://github.com/YASHASVIYADAV30/Omnibox.git
 cd Omnibox
