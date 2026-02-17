@@ -8,12 +8,13 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]()
+[![CLI](https://img.shields.io/badge/Interface-CLI-black?style=for-the-badge&logo=windowsterminal&logoColor=white)]()
 
-**Your Personal AI-Powered Assistant with Voice Support**
+**Your Personal AI-Powered CLI Assistant with Voice Support**
 
-*Control your computer, search the web, play music, get information - all with simple commands or your voice!*
+*Control your computer, search the web, play music, get real-time weather & news — all from your terminal.*
 
-[📥 Download](#-quick-start) • [📖 Features](#-features) • [🎯 Examples](#-usage-examples) • [🐛 Report Bug](https://github.com/YASHASVIYADAV30/Omnibox/issues)
+[📥 Download](#-quick-start) • [✨ Features](#-features) • [🎯 Commands](#-commands) • [🐛 Report Bug](https://github.com/YASHASVIYADAV30/Omnibox/issues)
 
 </div>
 
@@ -21,67 +22,62 @@
 
 ## 🌟 Why OmniBox?
 
-OmniBox is your **intelligent companion** that understands natural language, speaks multiple languages, and makes your daily tasks effortless.
+OmniBox is a **CLI-based AI assistant** that understands natural language in **Hindi & English**, integrates multiple APIs, and gives you full control of your system — without leaving the terminal.
 
-### ✨ What Makes It Special?
+### Built With
 
-| Feature | Description |
-|---------|-------------|
-| 🎙️ **Natural Voice Commands** | Speak in Hindi or English, naturally |
-| 🧠 **AI-Powered** | Uses Google Gemini for intelligent responses |
-| 🔧 **Smart & Forgiving** | Understands typos and multiple phrasings |
-| 🚀 **Zero Configuration** | Works out of the box (just add API keys) |
-| 🎨 **Beautiful CLI** | Colorful, interactive terminal interface |
-| 🔒 **Privacy First** | All processing happens locally |
+> 🧠 **Google Gemini AI** — Intelligent conversations & smart responses
+>
+> 🌦️ **OpenWeatherMap API** — Real-time weather data for any city
+>
+> 📰 **NewsAPI** — Latest headlines at your fingertips
+>
+> 🎙️ **Speech Recognition** — Hands-free voice commands
 
 ---
 
-## 🎯 Features
+## ✨ Features
 
-<table>
-<tr>
-<td width="50%">
+### 🧠 AI & Voice
+- **Gemini AI** powered intelligent responses — ask anything
+- **Voice commands** in Hindi & English — speak naturally
+- Smart enough to understand typos and different phrasings
 
 ### 🌐 Web & Search
-- Open any website instantly
-- Search Google, YouTube, GitHub
-- Play videos and music online
-- Smart URL handling
+- Open any website instantly — `open youtube`, `open github`
+- Google search from terminal — `search python tutorials`
+- Play YouTube videos — `play lofi music`
 
-### 🎵 Media & Entertainment
-- Play music by mood (Lofi, Bollywood, etc.)
-- YouTube integration
-- Spotify support
+### 💻 System Control
+- Open apps — `open notepad`, `open vscode`
+- Open folders — `open desktop`, `open downloads`
+- Take screenshots, shutdown, restart, lock system
+
+### 🌦️ Live Weather
+- Real-time weather for any city — `weather mumbai`
+- Temperature, humidity, conditions — all in one glance
+- Powered by **OpenWeatherMap API**
+
+### 📰 Live News
+- Latest headlines instantly — just type `news`
+- Top stories from around the world
+- Powered by **NewsAPI**
+
+### 🎵 Music & Media
+- Play music by mood — Lofi, Bollywood, Study, Instrumental
+- YouTube & Spotify integration
 - Voice-controlled playback
-
-</td>
-<td width="50%">
-
-### ⚙️ System Control
-- Open apps & folders
-- Take screenshots
-- System power controls
-- Task management
-
-### 🌦️ Information Hub
-- Real-time weather updates
-- Latest news headlines
-- Time & date queries
-- AI-powered Q&A
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## 📥 Quick Start
 
-### 🖥️ Method 1: Download ZIP (Easiest)
+### Method 1: Download ZIP
 
 [![Download ZIP](https://img.shields.io/badge/📥_Download-ZIP_File-blue?style=for-the-badge)](https://github.com/YASHASVIYADAV30/Omnibox/archive/refs/heads/main.zip)
 
-1. Click the **Download** button above
-2. Extract the ZIP file to any folder
-3. Follow [Setup Instructions](#-setup) below
+### Method 2: Clone with Git
 
+```bash
+git clone https://github.com/YASHASVIYADAV30/Omnibox.git
+cd Omnibox
